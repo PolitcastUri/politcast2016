@@ -1,0 +1,32 @@
+/**
+ * Theme Name:   Politcast2016
+ * Theme URI:    https://www.politcast-uri.ch
+ * Description:  Politcast 2016 Theme based on TwentyFifteen
+ * Author:       Daniel Aschwanden
+ * Author URI:   https://github.com/asdaniel
+ * Template:     politcast2016
+ * Version:      1.0.0
+ */
+
+/* ----------------------------------------------------------------------------
+ * Child Theme Style.css styles begin here!
+ * ------------------------------------------------------------------------- */
+/*FIX DISQUS*/
+div#disqus_thread {
+	padding: 3% 10%;
+	background-color: white;
+	margin: 3% 0;
+	box-shadow: 0 0 1px rgba(0,0,0,0.15);
+}
+ 
+@media screen and (min-width: 38.75em) {
+	div#disqus_thread {
+		margin: 3% 7.6923%;
+	}
+}
+ 
+@media screen and (min-width: 59.6875em) {
+	div#disqus_thread {
+		margin: 3% 8.3333%;
+	}
+}
